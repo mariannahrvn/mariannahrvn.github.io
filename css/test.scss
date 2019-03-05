@@ -1,4 +1,8 @@
 $main-color: #ffd700;
+$width-small: 420px;
+$width-medium: 756px;
+$width-large: 1024px;
+
 * {
 	margin: 0;
 	padding: 0;
@@ -17,6 +21,10 @@ HEADER
 .container {
 	margin: 1rem 0;
 	width: 1172px;
+    @media(max-width: $width-small) {
+        wdith: 100%;
+    }
+    
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
