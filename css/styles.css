@@ -62,7 +62,7 @@ footer{
     margin: 1em;
 }
 
-footer ul{
+footer ul {
     list-style: none;
     font-size: 40px;
     display: flex;
@@ -71,14 +71,14 @@ footer ul{
     padding: 1rem
 }
 
-footer ul a{
+footer ul a {
     display: flex;
     flex-direction: row;
     margin: 20px;
     cursor: pointer;
 }
 
-footer p{
+footer p {
     font-size: 20px;
     text-transform: uppercase;
     margin-bottom: 10px;
