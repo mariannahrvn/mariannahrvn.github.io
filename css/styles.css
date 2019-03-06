@@ -45,13 +45,17 @@ header nav ul li {
 @media(max-width:500px){
     .container{
         font-size: 12px;
+        text-align: center;
+        padding: 10px;
+        width: 478px;
         
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
     }
     h1{
         font-size: 20px;
+        margin-bottom: 10px;
     }
 }
 /*------------
