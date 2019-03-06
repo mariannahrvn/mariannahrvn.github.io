@@ -42,6 +42,18 @@ header nav ul li {
     margin: 1em;
 }
 
+@media(max-width:500px){
+    .container{
+        font-size: 12px;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
 /*------------
 FOOTER
 ------------*/
