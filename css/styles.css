@@ -58,14 +58,29 @@ header nav ul li {
         margin-bottom: 10px;
     }
 }
+
+/*------------
+ABOUT ME
+------------*/
+#about a {
+    color: black;
+}
+
+.person-img img{
+    max-width: 100%;
+    width: 500px;
+}
+
+
+
 /*------------
 FOOTER
 ------------*/
-a{
+footer a {
     color: #ffd700;
 }
 
-footer{
+footer {
     background-color: black;
     color: #ffd700;
     display: flex;
