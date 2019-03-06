@@ -66,14 +66,14 @@ ABOUT ME
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
 }
 
 #about a {
     color: black;
 }
 
-.person-img img{
+.person-img img {
     max-width: 100%;
     width: 500px;
 }
@@ -81,7 +81,9 @@ ABOUT ME
 .title {
     text-align: center;
     font-size: 35px;
-    margin: 35px;
+    margin: 25px;
+    border: 10px solid #ffd700;
+    background-color: #ffd700;
 }
 
 #two-cols{
@@ -89,14 +91,12 @@ ABOUT ME
     width: 1172px;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
 }
 
 .person-detail{
     display: flex;
     flex-direction: column;
     padding-left: 50px;
-    align-items: flex-start;
 }
 
 .person-detail h1{
@@ -109,7 +109,6 @@ ABOUT ME
 }
 
 .person-information{
-    display: inline-block; 
     padding: 15px 0 25px 0;
 }
 
@@ -129,7 +128,30 @@ ABOUT ME
     padding-left: 55px;
 }
 
-
+ @media(max-width:500px){
+     #about{
+         flex-direction: column;
+     }
+     .title{
+         font-size: 25px;
+         margin: 15px;
+     }
+     #two-cols{
+         flex-direction: column;
+         align-items: center;
+     }
+     .person-img img{
+         max-width: 100%;
+         width: 250px;
+     }
+     .person-detail{
+         margin-top: 20px;
+         font-size: 15px;
+         padding: 0;
+       
+     }
+     
+}
 /*------------
 FOOTER
 ------------*/
