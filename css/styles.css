@@ -43,17 +43,13 @@ header nav ul li {
 }
 
 @media(max-width:420px){
-    
     .container{
         font-size: 12px;
         text-align: center;
         padding: 10px auto;
-        width: 420px;
-        
-      
-      
+        width: 420px;        
     }
-    .container nav ul{
+     .container nav ul{
         justify-content: space-around;
     }
     h1{
@@ -67,10 +63,8 @@ header nav ul li {
         text-align: center;
         padding: 5px;
         width: 700px;
-        
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+           
+        flex-direction: column;
     }
       .container nav ul{
         justify-content: space-around;
@@ -186,8 +180,8 @@ ABOUT ME
          margin: 15px;
      }
      #two-cols{
-         justify-content: center;
-         align-items: center;
+        text-align: left;
+      
      }
      .person-img img{
          max-width: 100%;
