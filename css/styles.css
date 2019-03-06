@@ -181,14 +181,14 @@ ABOUT ME
      }
      #two-cols{
         text-align: left;
+         justify-content: center;
       
      }
      .person-img img{
-         max-width: 100%;
+         max-width: 75%;
          width: 250px;
      }
      .person-detail{
-         margin-top:;
          font-size: 15px;
          padding: 0 50px;
        
