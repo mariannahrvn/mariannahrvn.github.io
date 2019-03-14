@@ -40,7 +40,7 @@
             <p>Textkhnwieguwevghvibsdhngkldkkjufhhgjk</p>
             <div class="about__person-information">
               <ul>
-                <li><a href="#">Address</a></li>
+                <li>Address</li>
                 <li><a href="#">Date of Birth</a></li>
                 <li><a href="#">Nationality</a></li>
                 <li><a href="#">Phone</a></li>
@@ -64,101 +64,67 @@
 
       <div id="contact-area" class="contact">
         <h2 class="contact__title">Contact Me</h2>
-
-        <div class="contact__contact-detail">
-          <div class="contact__contact-info">
-            <h3 class="contact__title">Contact Info</h3>
+        <div class="contact__wraper">
+          <div class="contact__info">
+            <h3 class="contact__info-title">Contact Info</h3>
             <div class="contact__media">
-              <div class="contact__media-left">
-                <i class="fas fa-map-marker"></i>
-              </div>
-              <div class="contact__media-body">
-                <h4>Address</h4>
-                <p>Ceskoslovenskej Armady 21, 040 01 Kosice</p>
-              </div>
+              <i class="fas fa-map-marker"></i>
+              <i class="fas fa-phone"></i>
+              <i class="fas fa-at"></i>
             </div>
-            <div class="contact__media">
-              <div class="contact__media-left">
-                <i class="fas fa-phone"></i>
-              </div>
-              <div class="conatct__media-body">
-                <h4>Phone</h4>
-                <p>+421 902 573 226</p>
-              </div>
-            </div>
-            <div class="contact__media">
-              <div class="contact__media-left">
-                <i class="fas fa-at"></i>
-              </div>
-              <div class="contact__media-body">
-                <h4>Email</h4>
-                <p>mariannahrvn@gmail.com</p>
-              </div>
+            <div class="contact__media-body">
+              <h4>Address</h4>
+              <p>Ceskoslovenskej Armady 21, 040 01 Kosice</p>
+              <h4>Phone</h4>
+              <p>+421 902 573 226</p>
+              <h4>Email</h4>
+              <p>mariannahrvn@gmail.com</p>
             </div>
           </div>
-          <div class="contact__send-message">
+          <div class="contact__message">
+            <h3 class="contact__message-title">Send Message</h3>
             <div class="contact__message-area">
-              <div class="contact__contact-title">
-                <h3>Send Message</h3>
-              </div>
-              <div class="conatct__send-message-area">
-                <div id="first-name">
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="firstname"
-                    placeholder="First Name*"
-                  />
-                </div>
-                <div id="last-name">
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="lastname"
-                    placeholder="Last Name*"
-                  />
-                </div>
-                <div id="email">
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="email"
-                    placeholder="Your Email*"
-                  />
-                </div>
-                <div id="subject">
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="subject"
-                    placeholder="Subject"
-                  />
-                </div>
-                <div id="message">
-                  <textarea
-                    class="form-control"
-                    rows="1"
-                    name="message"
-                    placeholder="Write Message"
-                  ></textarea>
-                </div>
-                <div id="button">
-                  <button class="btn" type="submit">
-                    <span>Send Message</span>
-                  </button>
-                </div>
-                <div id="success">
-                  <p>Your text message sent successfully!</p>
-                </div>
-                <div id="error">
-                  <p>Sorry! Message not sent. Something went wrong!!</p>
-                </div>
-              </div>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="firstname"
+                  placeholder="First Name*"
+                />
+                <input
+                  type="text"
+                  class="form-control"
+                  name="lastname"
+                  placeholder="Last Name*"
+                />
+                <input
+                  type="text"
+                  class="form-control"
+                  name="email"
+                  placeholder="Your Email*"
+                />
+                <input
+                  type="text"
+                  class="form-control"
+                  name="subject"
+                  placeholder="Subject"
+                />
+                <textarea
+                  class="form-control"
+                  rows="1"
+                  name="message"
+                  placeholder="Write Message">
+                </textarea>
+            </div>
+            <div class="button">
+              <button class="btn" type="submit">
+                <span>Send Message</span>
+                </button>
+                <p class="success">Your text message sent successfully!</p>
+                <p class="error">Sorry! Message not sent. Something went wrong!!</p>
+            </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
 
     <footer id="social-media" class="anchor">
       <div class="container vertical">
