@@ -74,23 +74,6 @@ body {
     cursor: pointer;
 }
 
-/*@media (max-width:420px){
-    #header-area{
-        display: inline-block;
-        width: 420px;
-        flex-direction: row;
-        justify-content: space-between;
-        text-align: center;
-    }
-    .container{
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-       
-    }
-}
-*/
-
 /*------------
 ABOUT ME
 ------------*/
@@ -166,86 +149,49 @@ ABOUT ME
     padding-left: 55px;
 }
 
-/*@media(max-width:420px){
-     .about-me{
-         flex-direction: column;
-     }
-     .title{
-         font-size: 25px;
-         margin: 15px;
-     }
-     #two-cols{
-         flex-direction: column;
-         align-items: center;
-     }
-    
-}
-*/
-
 /*------------
 CONTACT
 ------------*/
 
-#contact-area {
+.contact {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-/*.contact__container {
-    margin: 0 1rem;
-    width: 1172px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background-color: cornsilk;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
 .contact__title {
-    font-size: 25px;
     text-align: center;
+    font-size: 2rem;
+    margin: 25px;
     border: 10px solid #ffd700;
     background-color: #ffd700;
-    padding: 10px;
-    margin: 25px;
+    align-self: center;
 }
 
-.contact__contact-detail {
-    padding: 10px;
-    margin: 0 1rem;
-    width: 1172px;
+.contact__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+}
+
+.contact__info-title {
+    font-size: 1.5rem;
+}
+
+.contact__info {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-}
-
-.contact__contact-info {
-    padding-left: 50px;
-    line-height: 1.5;
-}
-
-.contact__contact-info h3 {
-    font-size: 30px;
-    padding-bottom: 20px;
+    line-height: 2;
 }
 
 .contact__media {
-    display: flex;
-}*/
-
-/*.form-control{
-    
-    width: 100%;
-    box-shadow: none;
-    outline: none;
-    text-shadow: none;
-    border: 1px solid #dfdfdf;
-    border-radius: 0px;
-    padding: 0px 15px;
-    height: 50px;
-    font-size: 14px;
-}*/
+    display: inline-block;
+    flex-direction: column;
+    justify-content: ;
+}
 
 .btn {
     max-width: 140px;
