@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.container {
+  width: 1172px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: white;
+}
+
 /*.anchor::before {
     display: block;
     content: " ";
