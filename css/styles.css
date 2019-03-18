@@ -150,6 +150,40 @@ ABOUT ME
 }
 
 /*------------
+SKILL
+------------*/
+
+.skill {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill__progress {
+  margin-bottom: 30px;
+  height: 30px;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+  text-shadow: none;
+  background: #fff;
+}
+
+.skill__progress-html {
+  background: #fec608;
+  box-shadow: none;
+}
+
+.progress_parcent {
+  font-family: raleway, sans-serif;
+  font-size: 16px;
+  color: #fff;
+  line-height: 30px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+/*------------
 CONTACT
 ------------*/
 
