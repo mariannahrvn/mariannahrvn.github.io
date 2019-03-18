@@ -1,15 +1,15 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .container {
-  width: 1172px;
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  background-color: white;
+    width: 1172px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: white;
 }
 
 /*.anchor::before {
@@ -23,9 +23,9 @@
 }*/
 
 html {
-  background-color: lightblue;
-  font-family: "Arial", sans-serif;
-  color: black;
+    background-color: lightblue;
+    font-family: "Arial", sans-serif;
+    color: black;
 }
 
 /*------------
@@ -33,45 +33,45 @@ HEADER
 ------------*/
 
 body {
-  margin-top: 4em;
+    margin-top: 4em;
 }
 
 .header {
-  background-color: #ffd700;
-  position: fixed;
-  z-index: 10;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 4.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+    background-color: #ffd700;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .header__container {
-  width: 1172px;
-  margin: 1rem 0;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+    width: 1172px;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header__link-list {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .header__link-list a {
-  text-decoration: none;
-  color: black;
-  font-size: 1rem;
-  margin: 0 15px;
-  cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    margin: 0 15px;
+    cursor: pointer;
 }
 
 /*------------
@@ -79,74 +79,74 @@ ABOUT ME
 ------------*/
 
 .about {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .about__title {
-  text-align: center;
-  font-size: 2rem;
-  margin: 25px;
-  border: 10px solid #ffd700;
-  background-color: #ffd700;
+    text-align: center;
+    font-size: 2rem;
+    margin: 25px;
+    border: 10px solid #ffd700;
+    background-color: #ffd700;
 }
 
 .about__two-cols {
-  padding: 10px;
-  margin: 0 1rem;
-  width: 1172px;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+    padding: 10px;
+    margin: 0 1rem;
+    width: 1172px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
 .about__person-img img {
-  max-width: 100%;
-  width: 350px;
-  padding-right: 30px;
+    max-width: 100%;
+    width: 350px;
+    padding-right: 30px;
 }
 
 .about__person-detail {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 30px;
 }
 
 .about__person-detail h1 {
-  margin-bottom: 15px;
-  margin-top: 0;
-  font-size: 2rem;
+    margin-bottom: 15px;
+    margin-top: 0;
+    font-size: 2rem;
 }
 
 .about__person-detail p {
-  margin-bottom: 15px;
-  font-size: 1.25rem;
+    margin-bottom: 15px;
+    font-size: 1.25rem;
 }
 
 .about__person-information {
-  padding: 15px 0 25px 0;
-  line-height: 2;
+    padding: 15px 0 25px 0;
+    line-height: 2;
 }
 
 .about__person-information ul {
-  display: inline-block;
+    display: inline-block;
 }
 
 .about__person-information ul li {
-  list-style: none;
+    list-style: none;
 }
 
 .about__person-information ul li a {
-  text-decoration: none;
-  color: black;
-  font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
 }
 
-.about__person-information ul + ul {
-  padding-left: 55px;
+.about__person-information ul+ul {
+    padding-left: 55px;
 }
 
 /*------------
@@ -154,50 +154,70 @@ CONTACT
 ------------*/
 
 .contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 10px;
-  margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
 .contact__title {
-  text-align: center;
-  font-size: 2rem;
-  margin: 25px;
-  border: 10px solid #ffd700;
-  background-color: #ffd700;
-  align-self: center;
+    text-align: center;
+    font-size: 2rem;
+    margin: 25px;
+    border: 10px solid #ffd700;
+    background-color: #ffd700;
+    align-self: center;
 }
 
 .contact__info-message {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.5rem;
 }
 
 .contact__wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 0 30px 0 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
 }
 
 .contact__info {
-  display: flex;
-  flex-direction: row;
-  line-height: 2;
+    display: flex;
+    flex-direction: row;
+    line-height: 2;
 }
 
-/*.contact__media {
+.contact__media {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 30px;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
+.contact__address {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact__address-ico {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact__address-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/*
 .contact__media-body {
     padding: 10px;
     margin-bottom: 10px;
@@ -209,51 +229,51 @@ CONTACT
 */
 
 .contact__message {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .contact__message-area input {
-  display: flex;
-  flex-direction: row;
-  width: 500px;
-  height: 50px;
-  margin: 20px 0;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 50px;
+    margin: 20px 0;
 }
 
 .contact__message-area textarea {
-  width: 500px;
-  height: 100px;
-  margin-bottom: 20px;
+    width: 500px;
+    height: 100px;
+    margin-bottom: 20px;
 }
 
 .btn {
-  max-width: 140px;
-  display: block;
-  line-height: 40px;
-  color: black;
-  font-size: 15px;
-  box-shadow: none !important;
-  outline: none !important;
-  border: none;
-  border-radius: 0px;
-  background: #ffd700;
-  width: 100%;
-  padding: 0px;
-  position: relative;
-  overflow: hidden;
+    max-width: 140px;
+    display: block;
+    line-height: 40px;
+    color: black;
+    font-size: 15px;
+    box-shadow: none !important;
+    outline: none !important;
+    border: none;
+    border-radius: 0px;
+    background: #ffd700;
+    width: 100%;
+    padding: 0px;
+    position: relative;
+    overflow: hidden;
 }
 
 .success {
-  display: none;
-  padding-left: 15px;
-  padding-top: 10px;
+    display: none;
+    padding-left: 15px;
+    padding-top: 10px;
 }
 
 .error {
-  display: none;
-  padding-left: 15px;
-  padding-top: 10px;
+    display: none;
+    padding-left: 15px;
+    padding-top: 10px;
 }
 
 /*------------
@@ -261,43 +281,43 @@ FOOTER
 ------------*/
 
 footer a {
-  color: #ffd700;
+    color: #ffd700;
 }
 
 footer {
-  background-color: black;
-  color: #ffd700;
-  display: flex;
-  justify-content: center;
+    background-color: black;
+    color: #ffd700;
+    display: flex;
+    justify-content: center;
 }
 
 .vertical {
-  flex-direction: column;
-  align-items: center;
-  margin: 1em;
-  background-color: black;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+    background-color: black;
 }
 
 footer ul {
-  list-style: none;
-  font-size: 40px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 1rem;
+    list-style: none;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
 }
 
 footer ul a {
-  display: flex;
-  flex-direction: row;
-  margin: 20px;
-  cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    cursor: pointer;
 }
 
 footer p {
-  font-size: 20px;
-  text-transform: uppercase;
-  margin-bottom: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 /*@media(max-width:420px){
