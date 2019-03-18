@@ -217,6 +217,44 @@ CONTACT
     justify-content: space-around;
 }
 
+.contact__phone {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact__phone-ico {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact__phone-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact__mail {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact__mail-ico {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact__mail-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 /*
 .contact__media-body {
     padding: 10px;
