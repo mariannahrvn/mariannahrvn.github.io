@@ -201,17 +201,22 @@ CONTACT
 .contact__address {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
-.contact__address-ico {
+.contact__ico {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  padding: 10px;
-  margin: 10px;
+  padding: 20px;
+  margin: 20px;
+  border: solid #ffd700 2px;
+  background-color: #ffd700;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
 }
 
-.contact__address-body {
+.contact__body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -222,37 +227,9 @@ CONTACT
   flex-direction: row;
 }
 
-.contact__phone-ico {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding: 10px;
-  margin: 10px;
-}
-
-.contact__phone-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
 .contact__mail {
   display: flex;
   flex-direction: row;
-}
-
-.contact__mail-ico {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding: 10px;
-  margin: 10px;
-}
-
-.contact__mail-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
 }
 
 .contact__message {
@@ -266,12 +243,14 @@ CONTACT
   width: 500px;
   height: 50px;
   margin: 20px 0;
+  font-size: 1.05rem;
 }
 
 .contact__message-area textarea {
   width: 500px;
   height: 100px;
   margin-bottom: 20px;
+  font-size: 1.1rem;
 }
 
 .btn {
@@ -279,7 +258,7 @@ CONTACT
   display: block;
   line-height: 40px;
   color: black;
-  font-size: 15px;
+  font-size: 1.1rem;
   box-shadow: none !important;
   outline: none !important;
   border: none;
