@@ -250,6 +250,27 @@ SKILL
 }
 
 /*------------
+EDUCATION
+------------*/
+
+.education {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.education__title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 25px;
+  border: 10px solid #ffd700;
+  background-color: #ffd700;
+  align-self: center;
+}
+
+/*------------
 CONTACT
 ------------*/
 
@@ -307,7 +328,8 @@ CONTACT
 .contact__ico {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  justify-content: center;
+  align-items: center;
   margin: 20px;
   border: solid #ffd700 2px;
   background-color: #ffd700;
