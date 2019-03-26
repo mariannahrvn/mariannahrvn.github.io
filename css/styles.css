@@ -509,6 +509,27 @@ EDUCATION
 }
 
 /*------------
+PORTFOLIO
+------------*/
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.portfolio__title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 25px;
+  border: 10px solid #ffd700;
+  background-color: #ffd700;
+  align-self: center;
+}
+
+/*------------
 CONTACT
 ------------*/
 
