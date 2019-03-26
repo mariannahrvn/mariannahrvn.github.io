@@ -273,6 +273,10 @@ COURSES
   width: 113%;
 }
 
+.courses__elct li {
+  margin-left: 20px;
+}
+
 .courses__zenva {
   width: 50%;
   max-width: 470px;
@@ -309,6 +313,10 @@ COURSES
   right: -1px;
   top: 0;
   width: 113%;
+}
+
+.courses__zenva li {
+  margin-left: 20px;
 }
 
 /*------------
