@@ -238,6 +238,79 @@ COURSES
   align-self: center;
 }
 
+.courses__elct {
+  width: 50%;
+  max-width: 470px;
+  background: #fec608;
+  margin-bottom: 30px;
+  padding: 20px;
+  position: relative;
+  z-index: 2;
+  float: left;
+  line-height: 1.8;
+  margin-left: 50px;
+}
+
+.courses__elct:before {
+  content: attr(data-line);
+  position: absolute;
+  right: -85px;
+  top: 0;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 4px solid #ffd700;
+  background: #ffd700;
+}
+
+.courses__elct:after {
+  content: "";
+  background: #ffd700;
+  height: 4px;
+  position: absolute;
+  right: -60px;
+  top: 0;
+  width: 113%;
+}
+
+.courses__zenva {
+  width: 50%;
+  max-width: 470px;
+  background: #fec608;
+  margin-top: 150px;
+  margin-bottom: 30px;
+  padding: 20px;
+  position: relative;
+  z-index: 2;
+  float: right;
+  line-height: 1.8;
+  margin-right: 50px;
+}
+
+.courses__zenva:before {
+  content: attr(data-line);
+  position: absolute;
+  right: -185px;
+  top: 0;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 4px solid #ffd700;
+  background: #ffd700;
+  right: auto;
+  left: -85px;
+}
+
+.courses__zenva:after {
+  content: "";
+  background: #ffd700;
+  height: 4px;
+  position: absolute;
+  right: -1px;
+  top: 0;
+  width: 113%;
+}
+
 /*------------
 EDUCATION
 ------------*/
@@ -259,16 +332,18 @@ EDUCATION
   align-self: center;
 }
 
-.education-info {
+.education-info,
+.courses__info {
   position: relative;
   overflow: hidden;
 }
 
-.education-info:before {
+.education-info:before,
+.courses__info:before {
   content: "";
   position: absolute;
   top: 0;
-  bottom: 0;
+  bottom: 28px;
   left: 50%;
   width: 5px;
   margin-left: -2.5px;
@@ -348,7 +423,8 @@ EDUCATION
   width: 113%;
 }
 
-.education-mgr {
+.education-mgr,
+.courses__atyvit {
   width: 50%;
   max-width: 470px;
   background: #fec608;
@@ -362,7 +438,8 @@ EDUCATION
   margin-left: 50px;
 }
 
-.education-mgr:before {
+.education-mgr:before,
+.courses__atyvit:before {
   content: attr(data-line);
   position: absolute;
   right: -85px;
@@ -374,7 +451,8 @@ EDUCATION
   background: #ffd700;
 }
 
-.education-mgr:after {
+.education-mgr:after,
+.courses__atyvit:after {
   content: "";
   background: #ffd700;
   height: 4px;
