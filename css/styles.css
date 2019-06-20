@@ -526,7 +526,7 @@ PORTFOLIO
     margin-left: 50px;
 }
 
-.portfolio__alaska {
+.portfolio__alaska .portfolio__grid-layout .portfolio__form {
     max-width: 100%;
     width: 350px;
     padding-right: 30px;
@@ -540,32 +540,11 @@ max-width: 100%;
 }
 */
 
-.portfolio__alaska-img img {
+.portfolio__alaska-img img .portfolio__grid-layout-img .portfolio__form-img img {
     vertical-align: middle;
     max-width: 90%;
 }
 
-.portfolio__grid-layout {
-    max-width: 100%;
-    width: 350px;
-    padding-right: 30px;
-}
-
-.portfolio__grid-layout-img img {
-    vertical-align: middle;
-    max-width: 90%;
-}
-
-.portfolio__form {
-    max-width: 100%;
-    width: 350px;
-    padding-right: 30px;
-}
-
-.portfolio__form-img img {
-    vertical-align: middle;
-    max-width: 90%;
-}
 
 /*------------
 CONTACT
