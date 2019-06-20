@@ -533,6 +533,7 @@ PORTFOLIO
 }
 
 .portfolio__alaska-img {
+  position: relative;
     box-sizing: content-box;
 }
 
