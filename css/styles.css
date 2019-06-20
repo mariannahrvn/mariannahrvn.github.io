@@ -541,6 +541,7 @@ PORTFOLIO
 
 .portfolio__alaska-img img {
     vertical-align: middle;
+    max-width: 90%;
 }
 
 /*------------
