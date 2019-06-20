@@ -532,13 +532,12 @@ PORTFOLIO
     padding-right: 30px;
 }
 
-/*.portfolio__alaska-img {
-vertical-align: middle;
-position: relative;
-box-sizing: content-box;
-max-width: 100%;
+.portfolio__alaska-img {
+    vertical-align: middle;
+    position: relative;
+    box-sizing: content-box;
+    max-width: 100%;
 }
-*/
 
 .portfolio__alaska-img img .portfolio__grid-layout-img .portfolio__form-img img {
     vertical-align: middle;
