@@ -538,6 +538,10 @@ PORTFOLIO
     box-sizing: content-box;
 }
 
+.portfolio__alaska-img img {
+    vertical-align: middle;
+}
+
 /*------------
 CONTACT
 ------------*/
