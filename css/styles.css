@@ -522,6 +522,8 @@ PORTFOLIO
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 10px;
+    margin-left: 50px;
 }
 
 .portfolio__alaska {
