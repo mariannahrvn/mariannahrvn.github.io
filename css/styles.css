@@ -532,6 +532,10 @@ PORTFOLIO
     padding-right: 30px;
 }
 
+.portfolio__alaska-img {
+    box-sizing: content-box;
+}
+
 /*------------
 CONTACT
 ------------*/
