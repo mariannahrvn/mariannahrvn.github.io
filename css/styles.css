@@ -532,14 +532,37 @@ PORTFOLIO
     padding-right: 30px;
 }
 
-.portfolio__alaska-img {
-    vertical-align: middle;
-    position: relative;
-    box-sizing: content-box;
-    max-width: 100%;
+/*.portfolio__alaska-img {
+vertical-align: middle;
+position: relative;
+box-sizing: content-box;
+max-width: 100%;
 }
+*/
 
 .portfolio__alaska-img img {
+    vertical-align: middle;
+    max-width: 90%;
+}
+
+.portfolio__grid-layout {
+    max-width: 100%;
+    width: 350px;
+    padding-right: 30px;
+}
+
+.portfolio__grid-layout-img img {
+    vertical-align: middle;
+    max-width: 90%;
+}
+
+.portfolio__form {
+    max-width: 100%;
+    width: 350px;
+    padding-right: 30px;
+}
+
+.portfolio__form-img img {
     vertical-align: middle;
     max-width: 90%;
 }
