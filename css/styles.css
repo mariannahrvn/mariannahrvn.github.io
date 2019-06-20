@@ -536,6 +536,7 @@ PORTFOLIO
     vertical-align: middle;
     position: relative;
     box-sizing: content-box;
+    max-width: 100%;
 }
 
 .portfolio__alaska-img img {
