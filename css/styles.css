@@ -502,11 +502,18 @@ PORTFOLIO
 ------------*/
 
 .portfolio {
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 20px;*/
+    width: 90%;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 10vh 4vh 38vh 38vh 10vh;
+    grid-gap: 15px;
+    margin: auto;
 }
 
 .portfolio__title {
