@@ -501,10 +501,7 @@ EDUCATION
 PORTFOLIO
 ------------*/
 
-.portfolio {
-    display: flex;
-
-}
+.portfolio {}
 
 /*display: flex;
     flex-direction: column;
