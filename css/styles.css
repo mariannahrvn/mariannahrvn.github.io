@@ -501,13 +501,57 @@ EDUCATION
 PORTFOLIO
 ------------*/
 
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.portfolio__title {
+    text-align: center;
+    font-size: 2rem;
+    margin: 25px;
+    border: 10px solid #ffd700;
+    background-color: #ffd700;
+    align-self: center;
+}
+
 .portfolio__card {
     display: flex;
     width: 100%;
 }
 
+.portfolio__alaskan .portfolio__form .portfolio__grid {
+    padding: 15px;
+}
+
+.portfolio__alaskan__title {
+    padding: 20px;
+}
+
 .portfolio__alaskan img {
     width: 100%;
+    padding: 20px;
+}
+
+.portfolio__form__title {
+    padding: 20px;
+}
+
+.portfolio__form img {
+    width: 100%;
+    padding: 20px;
+}
+
+.portfolio__grid__title {
+    padding: 20px;
+}
+
+.portfolio__grid img {
+    width: 100%;
+    padding: 20px;
 }
 
 
