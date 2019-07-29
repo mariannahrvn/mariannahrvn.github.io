@@ -505,6 +505,10 @@ PORTFOLIO
     display: flex;
 }
 
+.portfolio__alaskan-img {
+    max-width: 100%;
+}
+
 /*display: flex;
     flex-direction: column;
     justify-content: space-between;
