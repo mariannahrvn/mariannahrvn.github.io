@@ -503,11 +503,14 @@ PORTFOLIO
 
 .portfolio__card {
     display: flex;
+    width: 100%;
 }
 
-.portfolio__alaskan-img {
-    max-width: 20%;
+.portfolio__alaskan img {
+    width: 100%;
 }
+
+
 
 /*display: flex;
     flex-direction: column;
@@ -516,8 +519,7 @@ PORTFOLIO
     margin-bottom: 20px;
     width: 90%;
     max-width: 800px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+
 
     grid-gap: 15px;
     margin: auto;
@@ -551,11 +553,6 @@ PORTFOLIO
     position: relative;
     box-sizing: content-box;
     max-width: 100%;
-}
-
-.portfolio__alaska-img img .portfolio__grid-layout-img .portfolio__form-img img {
-    vertical-align: middle;
-    max-width: 90%;
 }
 */
 
