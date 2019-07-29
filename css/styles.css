@@ -501,12 +501,13 @@ EDUCATION
 PORTFOLIO
 ------------*/
 
-.portfolio {
-    /*display: flex;
+.portfolio {}
+
+/*display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 10px;
-    margin-bottom: 20px;*/
+    margin-bottom: 20px;
     width: 90%;
     max-width: 800px;
     display: grid;
@@ -550,6 +551,7 @@ PORTFOLIO
     vertical-align: middle;
     max-width: 90%;
 }
+*/
 
 
 /*------------
