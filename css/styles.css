@@ -533,7 +533,7 @@ PORTFOLIO
 
 .portfolio__alaskan img {
     width: 100%;
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
 }
 
 .portfolio__form__title {
@@ -542,7 +542,7 @@ PORTFOLIO
 
 .portfolio__form img {
     width: 100%;
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
 }
 
 .portfolio__grid__title {
@@ -551,7 +551,7 @@ PORTFOLIO
 
 .portfolio__grid img {
     width: 100%;
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
 }
 
 .portfolio__more {
@@ -563,52 +563,6 @@ PORTFOLIO
     padding: 10px 20px 10px 20px;
     text-decoration: none;
 }
-
-
-/*display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 10px;
-    margin-bottom: 20px;
-    width: 90%;
-    max-width: 800px;
-
-
-    grid-gap: 15px;
-    margin: auto;
-}
-
-.portfolio__title {
-    text-align: center;
-    font-size: 2rem;
-    margin: 25px;
-    border: 10px solid #ffd700;
-    background-color: #ffd700;
-    align-self: center;
-}
-
-.portfolio__info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 10px;
-    margin-left: 50px;
-}
-
-.portfolio__alaska .portfolio__grid-layout .portfolio__form {
-    max-width: 100%;
-    width: 350px;
-    padding-right: 30px;
-}
-
-.portfolio__alaska-img {
-    vertical-align: middle;
-    position: relative;
-    box-sizing: content-box;
-    max-width: 100%;
-}
-*/
-
 
 /*------------
 CONTACT
