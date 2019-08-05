@@ -173,15 +173,13 @@ SKILL
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
-.skill__left-cols,
-.skill__right-cols {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 500px;
-    margin: 20px;
+.skill__item {
+    flex: 0 0 45%;
+    margin: 1rem;
 }
 
 .skill__progress {
