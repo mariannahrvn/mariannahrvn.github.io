@@ -96,7 +96,7 @@ ABOUT ME
 .about__two-cols {
     padding: 10px;
     margin: 0 1rem;
-    width: 1172px;
+    width: 100%;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -104,15 +104,14 @@ ABOUT ME
 
 .about__person-img img {
     max-width: 100%;
-    width: 350px;
-    padding-right: 30px;
+    width: 370px;
+    padding-right: 50px;
 }
 
 .about__person-detail {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding-left: 30px;
+    padding-left: 50px;
 }
 
 .about__person-detail h2 {
@@ -139,6 +138,7 @@ ABOUT ME
     list-style: none;
     text-decoration: none;
     font-size: 1.2rem;
+    margin: 10px 0 10px 0;
 }
 
 .about__person-information ul li a {
@@ -649,60 +649,6 @@ CONTACT
 .contact__message {
     display: flex;
     flex-direction: column;
-}
-
-.contact__message-area input {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    border: 1px solid #dfdfdf;
-    border-radius: 10px;
-    height: 50px;
-    margin: 20px 0px;
-    padding: 0px 15px;
-    color: #999999;
-    font-size: 1.05rem;
-}
-
-.contact__message-area textarea {
-    width: 500px;
-    border: 1px solid #dfdfdf;
-    border-radius: 10px;
-    padding: 20px 15px 0px 15px;
-    height: 100px;
-    margin-bottom: 20px;
-    color: #999999;
-    font-size: 1.05rem;
-    resize: none;
-}
-
-.btn {
-    max-width: 140px;
-    display: block;
-    line-height: 40px;
-    color: black;
-    font-size: 1.1rem;
-    box-shadow: none !important;
-    outline: none !important;
-    border: none;
-    border-radius: 0px;
-    background: #ffd700;
-    width: 100%;
-    padding: 0px;
-    position: relative;
-    overflow: hidden;
-}
-
-.success {
-    display: none;
-    padding-left: 15px;
-    padding-top: 10px;
-}
-
-.error {
-    display: none;
-    padding-left: 15px;
-    padding-top: 10px;
 }
 
 /*------------
