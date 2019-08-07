@@ -17,7 +17,7 @@
       <div class="header__container">
         <div class="header__title-container">
           <h1 class="header__title">Marianna Harvanova</h1>
-          <i class="header__menu-icon fas fa-bars"></i>
+          <span class="header__menu-icon"><i class="fas fa-bars"></i></span>
         </div>
 
         <nav class="header__navbar">
@@ -366,6 +366,10 @@
             500
           );
         });
+      });
+
+      $(".header__menu-icon").click(function() {
+        $(".header__navbar").toggleClass("active");
       });
     </script>
   </body>
