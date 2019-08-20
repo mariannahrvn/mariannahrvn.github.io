@@ -39,9 +39,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 1172px;
-          flex: 0 1 1172px;
   background-color: white;
 }
 
