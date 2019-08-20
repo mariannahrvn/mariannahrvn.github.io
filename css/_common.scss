@@ -26,6 +26,5 @@ body {
     max-width: $container-width;
     display: flex;
     flex-direction: column;
-    flex: 0 1 $container-width;
     background-color: $container-bg-color;
 }
