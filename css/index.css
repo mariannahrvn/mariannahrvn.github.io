@@ -235,6 +235,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 @media (max-width: 756px) {
@@ -279,5 +282,18 @@ body {
 .about__person-information ul li span.detail {
   color: gray;
   font-size: 0.8rem;
+}
+
+.about__cv-link {
+  color: black;
+  background-color: #ffd700;
+  padding: 0.5rem;
+  margin: 1.5rem;
+  border-radius: 15px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
 }
 /*# sourceMappingURL=index.css.map */
