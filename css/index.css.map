@@ -10,6 +10,8 @@
         "_about.scss",
         "_variables.scss",
         "_skills.scss",
+        "_variables.scss",
+        "_courses.scss",
         "_variables.scss"
     ],
     "names": [],
