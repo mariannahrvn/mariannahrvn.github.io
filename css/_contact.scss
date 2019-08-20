@@ -1,0 +1,52 @@
+@import '_variables';
+
+.contact {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        text-align: center;
+        font-size: 2rem;
+        margin: 25px;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        @media (max-width: $width-medium) {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    &__info-title {
+        margin: 1rem;
+    }
+
+    &__media {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    &__ico {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+        border: solid #ffd700 2px;
+        background-color: #ffd700;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+    }
+}

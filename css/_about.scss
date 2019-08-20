@@ -13,7 +13,9 @@
     &__person-img {
         flex: 0 1 25%;
         padding: 2rem;
-        margin: 2rem;
+        margin: 0 2rem;
+        display: flex;
+        flex-direction: column;
 
         @media (max-width: $width-medium) {
             margin: 0;
@@ -27,7 +29,7 @@
 
     &__person {
         padding: 2rem;
-        margin: 2rem;
+        margin: 0 2rem;
 
         @media (max-width: $width-medium) {
             margin: 0;
@@ -35,6 +37,7 @@
 
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
 
         h2 {
             padding-bottom: 1.5rem;
@@ -68,4 +71,51 @@
             }
         }
     }
+
+    &__social-links {
+        @media (max-width: $width-medium) {
+            margin-top: 1.5rem;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+
+            @media (max-width: $width-medium) {
+                justify-content: center;
+            }
+
+            li {
+                margin-right: 1rem;
+
+                a {
+                    color: black;
+                    text-align: center;
+                    font-size: 1.5rem;
+
+                    @media (max-width: $width-medium) {}
+
+                    &:hover {
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+    }
+
+    &__cv-link {
+        color: $text-color;
+        background-color: $main-color;
+        padding: 0.5rem;
+        margin-top: 1.5rem;
+        border-radius: 15px;
+        text-decoration: none;
+        text-align: center;
+        font-size: 0.8rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+
 }
