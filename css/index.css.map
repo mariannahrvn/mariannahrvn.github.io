@@ -18,7 +18,8 @@
         "_portfolio.scss",
         "_variables.scss",
         "_contact.scss",
-        "_variables.scss"
+        "_variables.scss",
+        "_footer.scss"
     ],
     "names": [],
     "file": "index.css"
