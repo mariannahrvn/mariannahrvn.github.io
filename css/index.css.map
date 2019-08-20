@@ -12,7 +12,8 @@
         "_skills.scss",
         "_variables.scss",
         "_courses.scss",
-        "_variables.scss"
+        "_variables.scss",
+        "_education.scss"
     ],
     "names": [],
     "file": "index.css"
