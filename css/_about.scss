@@ -9,5 +9,11 @@
     &__two-cols {
         display: flex;
         flex-direction: row;
+
+        .about__person-img {
+            img {
+                width: 100%;
+            }
+        }
     }
 }

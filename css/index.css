@@ -9,6 +9,20 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+}
+
 .container {
   max-width: 1172px;
   display: -webkit-box;
@@ -21,6 +35,10 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 1172px;
+          flex: 0 1 1172px;
+  background-color: white;
 }
 
 .header {
@@ -189,5 +207,9 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+.about__two-cols .about__person-img img {
+  width: 100%;
 }
 /*# sourceMappingURL=index.css.map */
