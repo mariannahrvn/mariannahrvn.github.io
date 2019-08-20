@@ -8,13 +8,18 @@
       defer
       src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
     ></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" ></script>
-    <link rel="stylesheet" type="text/css" href="/css/test.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/index.css" />
   </head>
+
   <body>
     <header class="header" id="header-area">
       <div class="header__container">
-        <h1 class="header__title">Marianna Harvanova</h1>
+        <div class="header__title-container">
+          <h1 class="header__title">Marianna Harvanova</h1>
+          <span class="header__menu-icon"><i class="fas fa-bars"></i></span>
+        </div>
+
         <nav class="header__navbar">
           <ul class="header__link-list">
             <li><a href="#about-me">About Me</a></li>
@@ -30,6 +35,47 @@
     </header>
 
     <div class="container">
+      <div id="about-me" class="about">
+        <div class="about__person-img">
+          <img src="img/person-photo1.jpg" alt="" />
+        </div>
+        <div class="about__person">
+          <h2>Hi, I'm Marianna Harvanova</h2>
+          <p>hgfvjhrgjyfbkjht</p>
+          <div class="about__person-information">
+            <ul>
+              <li>
+                <span class="information">Address</span
+                ><span class="detail"
+                  >Ceskoslovenskej&nbsp;Armady&nbsp;21, 040 01 Kosice</span
+                >
+              </li>
+              <li>
+                <span class="information">Date of Birth</span
+                ><span class="detail">07 September 1986</span>
+              </li>
+              <li>
+                <span class="information">Nationality</span
+                ><span class="detail">Slovak</span>
+              </li>
+              <li>
+                <span class="information">Phone</span
+                ><span class="detail">+421 902 573 226</span>
+              </li>
+              <li>
+                <span class="information">Email</span
+                ><span class="detail">mariannahrvn@gmail.com</span>
+              </li>
+              <li>
+                <span class="information">Website</span
+                ><span class="detail">https://mariannahrvn.github.io</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="container">
       <div id="about-me" class="about">
         <h2 class="about__title">About Me</h2>
         <div class="about__two-cols">
@@ -58,9 +104,9 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <div id="my-skill" class="skill">
+    <!-- <div id="my-skill" class="skill">
         <h2 class="skill__title">My Skills</h2>
         <div class="skill__two-cols">
             <div class="skill__item"><h4>HTML</h4>
@@ -176,9 +222,9 @@
               </div>
             </div>
         </div>
-      </div>
+      </div> -->
 
-      <div id="courses-area" class="courses">
+    <!-- <div id="courses-area" class="courses">
         <h2 class="courses__title">Courses and training</h2>
         <div class="courses__info">
           <div class="courses__elct">
@@ -210,9 +256,9 @@
             <p>Základy tvorby webstránok</p>
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <div id="education-area" class="education">
+    <!-- <div id="education-area" class="education">
         <h2 class="education__title">Education</h2>
         <div class="education-info">
           <div class="education-phd">
@@ -249,9 +295,9 @@
             <p>Bachelor thesis: Advances of SPME in pharmaceutical analysis</p>
           </div>
         </div>
-      </div>
+      </div> -->
 
-      <div id="portfolio-area" class="portfolio">
+    <!-- <div id="portfolio-area" class="portfolio">
         <h2 class="portfolio__title">Portfolio</h2>
         <div class="portfolio__card">
           <div class="portfolio__alaskan">
@@ -273,9 +319,9 @@
             </a>
           </div>
         </div>
-      </div>
+      </div> -->
 
-    <div id="contact-area" class="contact">
+    <!-- <div id="contact-area" class="contact">
       <h2 class="contact__title">Contact Me</h2>
       <div class="contact__info-message">
         <h3 class="contact__info-title">Contact Info</h3>
@@ -320,9 +366,9 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <footer id="social-media" class="anchor">
+    <!-- <footer id="social-media" class="anchor">
       <div class="container vertical">
         <ul>
           <li>
@@ -349,17 +395,23 @@
           All rights reserved.
         </p>
       </div>
-    </footer>
+    </footer> -->
     <script>
-      var links = $('.header__link-list a').each(function(idx) {
-        var link = $(this)
+      var links = $(".header__link-list a").each(function(idx) {
+        var link = $(this);
         link.click(function() {
-          $([document.documentElement, document.body]).animate({
-            scrollTop: $(link.attr('href')).offset().top - 50
-          }, 500);
+          $([document.documentElement, document.body]).animate(
+            {
+              scrollTop: $(link.attr("href")).offset().top - 50
+            },
+            500
+          );
         });
       });
 
+      $(".header__menu-icon").click(function() {
+        $(".header__navbar").toggleClass("active");
+      });
     </script>
   </body>
 </html>
