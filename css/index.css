@@ -485,4 +485,62 @@ body {
 .courses__course ul li {
   margin: 1rem;
 }
+
+.education {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.education__title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 25px;
+}
+
+.education__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.education__degree {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 44%;
+          flex: 1 0 44%;
+  background-color: #ffd700;
+  padding: 1.5rem;
+  margin: 2rem;
+}
+
+@media (max-width: 756px) {
+  .education__degree {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 80%;
+            flex: 1 0 80%;
+    margin: 1rem 2rem;
+  }
+}
+
+.education__degree h3 {
+  margin: 10px 0 10px 0;
+}
+
+.education__degree h5 {
+  margin: 5px 0 5px 0;
+}
 /*# sourceMappingURL=index.css.map */
