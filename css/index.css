@@ -210,7 +210,14 @@ body {
       -ms-flex: 0 1 25%;
           flex: 0 1 25%;
   padding: 2rem;
-  margin: 2rem;
+  margin: 0 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 @media (max-width: 756px) {
@@ -227,7 +234,7 @@ body {
 
 .about__person {
   padding: 2rem;
-  margin: 2rem;
+  margin: 0 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -284,11 +291,50 @@ body {
   font-size: 0.8rem;
 }
 
+@media (max-width: 756px) {
+  .about__social-links {
+    margin-top: 1.5rem;
+  }
+}
+
+.about__social-links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: none;
+}
+
+@media (max-width: 756px) {
+  .about__social-links ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.about__social-links ul li {
+  margin-right: 1rem;
+}
+
+.about__social-links ul li a {
+  color: black;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.about__social-links ul li a:hover {
+  color: #ffd700;
+}
+
 .about__cv-link {
   color: black;
   background-color: #ffd700;
   padding: 0.5rem;
-  margin: 1.5rem;
+  margin-top: 1.5rem;
   border-radius: 15px;
   text-decoration: none;
   text-align: center;
