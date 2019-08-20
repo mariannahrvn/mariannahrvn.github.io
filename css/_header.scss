@@ -1,17 +1,4 @@
-$main-color: #ffd700;
-$width-small: 420px;
-$width-medium: 756px;
-$width-large: 1024px;
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-family: Arial, Helvetica, sans-serif;
-}
+@import '_variables';
 
 .header {
     width: 100%;
@@ -26,8 +13,9 @@ html {
     flex-direction: row;
     justify-content: center;
 
+
     &__container {
-        flex: 0 1 1172px;
+        flex: 0 1 $container-width;
         height: 100%;
         display: flex;
         flex-direction: row;
