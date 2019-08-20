@@ -3,16 +3,68 @@
 .about {
     width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
 
-    &__two-cols {
+    @media (max-width: $width-medium) {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+    }
 
-        .about__person-img {
-            img {
-                width: 100%;
+    &__person-img {
+        flex: 0 1 25%;
+        padding: 2rem;
+        margin: 2rem;
+
+        @media (max-width: $width-medium) {
+            margin: 0;
+        }
+
+        img {
+            width: 100%;
+            box-shadow: 0px 0px 20px -5px black;
+        }
+    }
+
+    &__person {
+        padding: 2rem;
+        margin: 2rem;
+
+        @media (max-width: $width-medium) {
+            margin: 0;
+        }
+
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            padding-bottom: 1.5rem;
+        }
+
+        p {
+            padding-bottom: 1rem;
+        }
+    }
+
+    &__person-information {
+
+        ul {
+            display: flex;
+            flex-direction: column;
+
+            li {
+                list-style: none;
+                display: flex;
+                margin-bottom: 0.5rem;
+
+                span.information {
+                    flex: 0 0 50%;
+                    font-size: 0.9rem;
+                }
+
+                span.detail {
+                    color: lighten($text-color, 50%);
+                    font-size: 0.8rem;
+                }
             }
         }
     }
