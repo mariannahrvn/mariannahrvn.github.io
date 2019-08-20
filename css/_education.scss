@@ -2,13 +2,13 @@
 
 .education {
     display: flex;
-    flex-direction: column;
+flex-direction: column;
 
-    &__title {
-        text-align: center;
-        font-size: 2rem;
-        margin: 25px;
-    }
+&__title {
+    text-align: center;
+    font-size: 2rem;
+    margin: 25px;
+}
 
     &__info {
         display: flex;
