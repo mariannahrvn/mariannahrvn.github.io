@@ -9,6 +9,12 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+@media (max-width: 756px) {
+  html {
+    font-size: 11px;
+  }
+}
+
 .filler {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 44%;
