@@ -20,7 +20,8 @@
         "_contact.scss",
         "_variables.scss",
         "_footer.scss",
-        "_variables.scss"
+        "_variables.scss",
+        "_googleform.scss"
     ],
     "names": [],
     "file": "index.css"
