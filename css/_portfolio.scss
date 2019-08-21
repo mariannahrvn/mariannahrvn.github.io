@@ -4,6 +4,10 @@
     display: flex;
     flex-direction: column;
 
+    @media (max-width: $width-medium) {
+        padding: 0 4rem;
+    }
+
     &__title {
         text-align: center;
         font-size: 2rem;
