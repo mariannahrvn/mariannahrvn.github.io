@@ -33,10 +33,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: black;
+  background-color: black !important;
 }
 
 .container {
+  margin-top: 4.5rem;
   max-width: 1172px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -48,10 +49,17 @@ body {
   background-color: white;
 }
 
+@media (max-width: 756px) {
+  .container {
+    margin-top: 2rem;
+  }
+}
+
 .header {
   width: 100%;
   background-color: #ffd700;
   height: 4.5rem;
+  position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -719,6 +727,7 @@ body {
 }
 
 .footer__container {
+  padding: 1rem 0;
   -webkit-box-flex: 0;
       -ms-flex: 0 1 1172px;
           flex: 0 1 1172px;
@@ -758,5 +767,25 @@ body {
   color: black;
   text-align: center;
   font-size: 1.5rem;
+}
+
+.contact__message-area {
+  font-size: 0.7rem;
+}
+
+.contact__message-area .freebirdFormviewerViewCenteredContent {
+  width: 100%;
+}
+
+.contact__message-area .freebirdFormviewerViewHeaderTitle {
+  font-size: 1.3rem;
+}
+
+.contact__message-area .freebirdFormviewerViewItemsItemItemTitle {
+  font-size: 1rem;
+}
+
+.contact__message-area .freebirdFormviewerViewItemsItemItem {
+  padding: 0 1rem;
 }
 /*# sourceMappingURL=index.css.map */
