@@ -220,7 +220,6 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 0 3rem;
   }
 }
 
@@ -242,6 +241,7 @@ body {
 @media (max-width: 756px) {
   .about__person-img {
     margin: 0;
+    padding: 2rem 4rem;
   }
 }
 
@@ -378,12 +378,6 @@ body {
           align-items: center;
 }
 
-@media (max-width: 756px) {
-  .skill {
-    padding: 0 3rem;
-  }
-}
-
 .skill__title {
   text-align: center;
   font-size: 2rem;
@@ -456,12 +450,6 @@ body {
           flex-direction: column;
 }
 
-@media (max-width: 756px) {
-  .courses {
-    padding: 0 3rem;
-  }
-}
-
 .courses__title {
   text-align: center;
   font-size: 2rem;
@@ -520,12 +508,6 @@ body {
           flex-direction: column;
 }
 
-@media (max-width: 756px) {
-  .education {
-    padding: 0 3rem;
-  }
-}
-
 .education__title {
   text-align: center;
   font-size: 2rem;
@@ -582,12 +564,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-@media (max-width: 756px) {
-  .portfolio {
-    padding: 0 4rem;
-  }
 }
 
 .portfolio__title {
