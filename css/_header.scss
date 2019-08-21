@@ -4,6 +4,7 @@
     width: 100%;
     background-color: $main-color;
     height: 4.5rem;
+    position: fixed;
 
     @media (max-width: $width-medium) {
         height: auto;

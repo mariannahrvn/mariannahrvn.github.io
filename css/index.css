@@ -33,10 +33,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: black;
+  background-color: black !important;
 }
 
 .container {
+  margin-top: 4.5rem;
   max-width: 1172px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -48,10 +49,17 @@ body {
   background-color: white;
 }
 
+@media (max-width: 756px) {
+  .container {
+    margin-top: 2rem;
+  }
+}
+
 .header {
   width: 100%;
   background-color: #ffd700;
   height: 4.5rem;
+  position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -212,14 +220,13 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 0 3rem;
   }
 }
 
 .about__person-img {
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 25%;
-          flex: 0 1 25%;
+      -ms-flex: 0 0 25%;
+          flex: 0 0 25%;
   padding: 2rem;
   margin: 0 2rem;
   display: -webkit-box;
@@ -234,6 +241,7 @@ body {
 @media (max-width: 756px) {
   .about__person-img {
     margin: 0;
+    padding: 2rem 4rem;
   }
 }
 
@@ -370,12 +378,6 @@ body {
           align-items: center;
 }
 
-@media (max-width: 756px) {
-  .skill {
-    padding: 0 3rem;
-  }
-}
-
 .skill__title {
   text-align: center;
   font-size: 2rem;
@@ -448,12 +450,6 @@ body {
           flex-direction: column;
 }
 
-@media (max-width: 756px) {
-  .courses {
-    padding: 0 3rem;
-  }
-}
-
 .courses__title {
   text-align: center;
   font-size: 2rem;
@@ -512,12 +508,6 @@ body {
           flex-direction: column;
 }
 
-@media (max-width: 756px) {
-  .education {
-    padding: 0 3rem;
-  }
-}
-
 .education__title {
   text-align: center;
   font-size: 2rem;
@@ -574,12 +564,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-}
-
-@media (max-width: 756px) {
-  .portfolio {
-    padding: 0 4rem;
-  }
 }
 
 .portfolio__title {
@@ -719,6 +703,7 @@ body {
 }
 
 .footer__container {
+  padding: 1rem 0;
   -webkit-box-flex: 0;
       -ms-flex: 0 1 1172px;
           flex: 0 1 1172px;
@@ -758,5 +743,25 @@ body {
   color: black;
   text-align: center;
   font-size: 1.5rem;
+}
+
+.contact__message-area {
+  font-size: 0.7rem;
+}
+
+.contact__message-area .freebirdFormviewerViewCenteredContent {
+  width: 100%;
+}
+
+.contact__message-area .freebirdFormviewerViewHeaderTitle {
+  font-size: 1.3rem;
+}
+
+.contact__message-area .freebirdFormviewerViewItemsItemItemTitle {
+  font-size: 1rem;
+}
+
+.contact__message-area .freebirdFormviewerViewItemsItemItem {
+  padding: 0 1rem;
 }
 /*# sourceMappingURL=index.css.map */

@@ -6,11 +6,6 @@
     justify-content: space-between;
     align-items: center;
 
-
-    @media (max-width: $width-medium) {
-        padding: 0 3rem;
-    }
-
     &__title {
         text-align: center;
         font-size: 2rem;

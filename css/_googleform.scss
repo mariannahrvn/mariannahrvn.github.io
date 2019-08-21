@@ -1,0 +1,23 @@
+@import '_variables';
+
+.contact__message-area {
+    font-size: 0.7rem;
+
+    .freebirdFormviewerViewFormContentWrapper {}
+
+    .freebirdFormviewerViewCenteredContent {
+        width: 100%;
+    }
+
+    .freebirdFormviewerViewHeaderTitle {
+        font-size: 1.3rem;
+    }
+
+    .freebirdFormviewerViewItemsItemItemTitle {
+        font-size: 1rem;
+    }
+
+    .freebirdFormviewerViewItemsItemItem {
+        padding: 0 1rem;
+    }
+}

@@ -23,10 +23,16 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: $background-color;
+    background-color: $background-color !important;
 }
 
 .container {
+    margin-top: 4.5rem;
+
+    @media (max-width: $width-medium) {
+        margin-top: 2rem;
+    }
+
     max-width: $container-width;
     display: flex;
     flex-direction: column;
